@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./Img/hello.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+  }
+
+a img {
+    width: 150px;
+    
+}
+  
+  a:link, a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+nav{
+    text-align: center;
+    animation:infinite;
+  }
+  
+  @keyframes example {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+  }
+  
+  di{
+    padding: 15px 20px;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    background-color: #0004ff;
+  
+  }
+  
